@@ -1,0 +1,58 @@
+/*
+Theme Name: Corbusier WordPress Theme
+Theme URI: http://www.camilamachado.arq.br
+Author: Leandro Rossi Sampaio
+Author URI: http://www.leandrosampaio.com
+Description: Portifolio
+Version: 1.0
+License: Todos os direitos reservados.
+*/
+/* --------------------- RESET ----------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    border:0;
+    width: 100%;
+}
+:focus {
+    outline: 0;
+}
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: #ed1a3b;
+}
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: arial, sans-serif;
+    overflow-x: hidden;
+    color: #212121;
+}
+/* ---------------------  ----------------------- */
