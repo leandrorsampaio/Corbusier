@@ -81,9 +81,9 @@
             display:none;
         }
         h2 {
-            font-size: 3em;
+            font-size: 2.73em;
             font-weight: 300;
-            letter-spacing: 0.407em;
+            letter-spacing: 0.3em;
             margin: 0;
             color: @cor_decorate;
         }
@@ -121,7 +121,8 @@
 .about {
     .indexAbout {
         p {
-            font-size: 1.2em;
+            font-size: 1.4em;
+            font-weight: 300;
             color: @cor_padrao;
             text-align: justify;
             a {
@@ -209,8 +210,8 @@
             float: left;
             .careerItem_cargo {
                 color: @cor_decorate;
-                font-size: 1.8em;
-                font-weight: 300;
+                font-size: 2em;
+                font-weight: 400;
                 margin: 0;
                 width: 100%;
                 float: left;
@@ -230,7 +231,7 @@
             .careerItem_empresa {
                 color: @cor_padrao;
                 font-size: 1.4em;
-                font-weight: 600;
+                font-weight: 300;
                 margin: 0;
             }
             .careerItem_data {
@@ -354,143 +355,66 @@
                         }
                         @borderfull: 20px;
                         @borderHalf: 20px 0 0 20px;
-                        .skill01 {
-                            width: 100%;
-                            border-radius: @borderfull
-                        }
-                        .skill02 {
-                            width: 100%;
-                            border-radius: @borderfull
-                        }
-                        .skill03 {
+                        .c_skill_1 {
                             width: 90%;
-                            border-radius: @borderHalf
+                            border-radius: @borderfull
                         }
-                        .skill04 {
-                            width: 55%;
-                            border-radius: @borderHalf
-                        }
-                        .skill05 {
+                        .c_skill_2 {
                             width: 80%;
-                            border-radius: @borderHalf
+                            border-radius: @borderfull
                         }
-                        .skill06 {
+                        .c_skill_3 {
+                            width: 65%;
+                            border-radius: @borderfull
+                        }
+                        .c_skill_4 {
                             width: 60%;
-                            border-radius: @borderHalf
+                            border-radius: @borderfull
                         }
-                        .skill20 {
-                            width: 50%;
-                            border-radius: @borderHalf
+                        .c_skill_5 {
+                            width: 70%;
+                            border-radius: @borderfull
                         }
-                        .skill21 {
-                            width: 85%;
-                            border-radius: @borderHalf
-                        }
-                        //
-                        .skill07 {
+                        .c_skill_6 {
                             width: 100%;
                             border-radius: @borderfull
                         }
-                        .skill08 {
-                            width: 75%;
-                            border-radius: @borderHalf
-                        }
-                        .skill09 {
+                        .c_skill_7 {
                             width: 80%;
-                            border-radius: @borderHalf
-                        }
-                        .skill10 {
-                            width: 100%;
                             border-radius: @borderfull
                         }
-                        .skill11 {
-                            width: 80%;
-                            border-radius: @borderHalf
-                        }
-                        .skill12 {
-                            width: 85%;
-                            border-radius: @borderHalf
-                        }
-                        .skill18 {
-                            width: 80%;
-                            border-radius: @borderHalf
-                        }
-                        .skill19 {
-                            width: 40%;
-                            border-radius: @borderHalf
-                        }
-                        //
-                        .skill13 {
-                            width: 100%;
+                        .c_skill_8 {
+                            width: 70%;
                             border-radius: @borderfull
                         }
-                        .skill14 {
+                        .c_skill_9 {
+                            width: 90%;
+                            border-radius: @borderfull
+                        }
+                        .c_skill_10 {
                             width: 60%;
-                            border-radius: @borderHalf
+                            border-radius: @borderfull
                         }
-                        .skill15 {
-                            width: 50%;
-                            border-radius: @borderHalf
+                        .c_skill_11 {
+                            width: 60%;
+                            border-radius: @borderfull
                         }
-                        .skill16 {
+                        .c_skill_12 {
                             width: 90%;
-                            border-radius: @borderHalf
+                            border-radius: @borderfull
                         }
-                        .skill17 {
-                            width: 70%;
-                            border-radius: @borderHalf
+                        .c_skill_13 {
+                            width: 65%;
+                            border-radius: @borderfull
                         }
-                        .skill22 {
-                            width: 50%;
-                            border-radius: @borderHalf
+                        .c_skill_14 {
+                            width: 85%;
+                            border-radius: @borderfull
                         }
-                        .skill23 {
-                            width: 55%;
-                            border-radius: @borderHalf
-                        }
-                        .skill24 {
-                            width: 75%;
-                            border-radius: @borderHalf
-                        }
-                        //
-                        .skill25 {
+                        .c_skill_15 {
                             width: 100%;
                             border-radius: @borderfull
                         }
-                        .skill26 {
-                            width: 95%;
-                            border-radius: @borderHalf
-                        }
-                        .skill27 {
-                            width: 40%;
-                            border-radius: @borderHalf
-                        }
-                        .skill28 {
-                            width: 75%;
-                            border-radius: @borderHalf
-                        }
-                        .skill29 {
-                            width: 100%;
-                            border-radius: @borderfull
-                        }
-                        .skill30 {
-                            width: 80%;
-                            border-radius: @borderHalf
-                        }
-                        .skill31 {
-                            width: 90%;
-                            border-radius: @borderHalf
-                        }
-                        .skill32 {
-                            width: 70%;
-                            border-radius: @borderHalf
-                        }
-                        .skill33 {
-                            width: 80%;
-                            border-radius: @borderHalf
-                        }
-
-
                     }
                 }
             }
@@ -523,15 +447,18 @@
             .indexProjects_mosaic_item {
                 padding-bottom: 25px;
                 .indexProjects_mosaic_item_link {
-                    height: 250px;
-                    background-color: #ccc;
                     border-radius: 3px;
                     display: block;
                     width: 100%;
+                    p {
+                        font-size: 1.4em;
+                        font-weight: 300;
+                        color: @cor_padrao;
+                        text-align: justify;
+                    }
                 }
                 .indexProjects_mosaic_item_link:hover,
-                    .indexProjects_mosaic_item_link:focus {
-                    background-color: #cccfff;
+                .indexProjects_mosaic_item_link:focus {
                 }
             }
         }
@@ -544,59 +471,59 @@
 .contact {
     .indexContact {
         /*.indexContact_form {
-            form {
-                .form-group {
-                    label {
-                        color: @cor_padrao;
-                        font-weight: 600;
-                        font-size: 1.2em;
-                    }
-                    input, textarea {
-                        border: 1px solid @cor_decorate;
-                        border-radius: 3px;
-                        background-color: initial;
-                        width: 100%;
-                        display: block;
-                        font-size: 1.2em;
-                        font-weight: 400;
-                        color: @cor_padrao;
-                        padding: 4px 10px 4px 10px;
-                    }
-                    button {
-                        border: 1px solid @cor_decorate;
-                        float: right;
-                        background-color: initial;
-                        color: @cor_padrao;
-                        font-size: 1.2em;
-                        font-weight: 600;
-                        padding: 7px 20px 7px 20px;
-                    }
-                }
-            }
-        }
-        */
-        .indexContact_info {
-            padding: 25px 0 25px 0;
-            .contactItem {
-                color: @cor_padrao;
-                display: block;
-                text-align: center;
-                width: 100%;
-                font-size: 1.8em;
-                font-weight: 600;
-                padding: 0 0 15px 0;
-                .fa {
-                    color: @cor_decorate;
-                    margin: 0 3px 0 0;
-                    font-size: 1.2em;
-                }
-            }
-            .contactItem:hover, .contactItem:focus {
-                color:@cor_decorate;
-                text-decoration: none;
-            }
+        form {
+        .form-group {
+        label {
+        color: @cor_padrao;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+    input, textarea {
+    border: 1px solid @cor_decorate;
+    border-radius: 3px;
+    background-color: initial;
+    width: 100%;
+    display: block;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: @cor_padrao;
+    padding: 4px 10px 4px 10px;
+}
+button {
+border: 1px solid @cor_decorate;
+float: right;
+background-color: initial;
+color: @cor_padrao;
+font-size: 1.2em;
+font-weight: 600;
+padding: 7px 20px 7px 20px;
+}
+}
+}
+}
+*/
+.indexContact_info {
+    padding: 25px 0 25px 0;
+    .contactItem {
+        color: @cor_padrao;
+        display: block;
+        text-align: center;
+        width: 100%;
+        font-size: 1.8em;
+        font-weight: 600;
+        padding: 0 0 15px 0;
+        .fa {
+            color: @cor_decorate;
+            margin: 0 3px 0 0;
+            font-size: 1.2em;
         }
     }
+    .contactItem:hover, .contactItem:focus {
+        color:@cor_decorate;
+        text-decoration: none;
+    }
+}
+}
 }
 
 
@@ -614,8 +541,8 @@
         margin:0;
         .menuBall_icon_btn {
             border-radius: 100%;
-            background: #B24592; /* fallback for old browsers */
-            background-image: linear-gradient(135deg, #B24592 36%, #F15F79 100%);
+            background: @cor_decorate; /* fallback for old browsers */
+            //background-image: linear-gradient(135deg, #B24592 36%, #F15F79 100%);
             width: 40px;
             height: 40px;
             margin: 20px 20px 0 0;
@@ -623,7 +550,7 @@
             right: 0;
             cursor: pointer;
             .fa {
-                color: @cor_padrao;
+                color: #fff;
                 display: block;
                 font-size: 1.4em;
                 padding-top: 10px;
@@ -648,8 +575,9 @@
             margin: 20px 20px 0 0;
             padding: 10px 70px 10px 10px;
             border-radius: 3px 22px 3px 3px;
-            background: #1e3c72;
-            background-image: linear-gradient(135deg, #1e3c72 36%, #2a5298 100%);
+            //background: #1e3c72;
+            border: 1px solid @cor_decorate;
+            //background-image: linear-gradient(135deg, #1e3c72 36%, #2a5298 100%);
             ul {
                 list-style: none;
                 margin: 0;
@@ -714,7 +642,7 @@
                 }
             }
             .single_top_header_link:hover,
-                .single_top_header_link:focus {
+            .single_top_header_link:focus {
                 .nome, .titulo {
                     color: #B24592;
                     color: linear-gradient(135deg, #b24592 36%, #f15f79 100%);
