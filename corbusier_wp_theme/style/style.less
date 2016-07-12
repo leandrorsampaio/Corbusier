@@ -1,4 +1,6 @@
 ///Open+Sans:400,300,400italic,600
+@cor_padrao: #212121;
+@cor_decorate: #ff0000;
 
 
 * {
@@ -18,15 +20,15 @@
 
 
 .bgDegrade {
-    background: #1BB172; /* fallback for old browsers */
-    background-image: linear-gradient(135deg, #1BB172 36%, #13A7BE 100%);
+    //background: #1BB172; /* fallback for old browsers */
+    //background-image: linear-gradient(135deg, #1BB172 36%, #13A7BE 100%);
     background-clip: border-box;
     background-origin: padding-box;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: auto auto, cover;        
+    background-size: auto auto, cover;
 }
 
 .all-center {
@@ -43,7 +45,7 @@
         h3 {
             text-align:  center;
             font-size: 3em;
-            color: #fff;
+            color: @cor_padrao;
             font-weight: 300;
             text-transform: uppercase;
             letter-spacing: 0.15em;
@@ -69,7 +71,7 @@
             text-transform: uppercase;
             line-height: 1em;
             margin: 150px 0 0 0;
-            color: #fff;
+            color: @cor_padrao;
             .nome {
             }
             .sobrenome {
@@ -83,7 +85,7 @@
             font-weight: 300;
             letter-spacing: 0.407em;
             margin: 0;
-            color: #fff000;
+            color: @cor_decorate;
         }
     }
     .indexHeader_nav {
@@ -91,7 +93,7 @@
             float: right;
             text-align: right;
             font-size: 2.5em;
-            color: #fff;
+            color: @cor_padrao;
             font-weight: 300;
             text-transform: uppercase;
             letter-spacing: 0.15em;
@@ -103,7 +105,7 @@
                 }
                 a:focus, a:hover {
                     text-decoration: none;
-                    color: #fff000;
+                    color: @cor_decorate;
                 }
             }
             .first {
@@ -120,17 +122,17 @@
     .indexAbout {
         p {
             font-size: 1.2em;
-            color: #fff;
+            color: @cor_padrao;
             text-align: justify;
             a {
 
             }
             a:hover, a:fucus {
-                color: #fff000;
+                color: @cor_decorate;
             }
         }
         h4 {
-            color: #fff;
+            color: @cor_padrao;
             text-transform: uppercase;
             font-size: 1.4em;
             font-weight: 600;
@@ -145,7 +147,7 @@
             }
             .fa:hover, .fa:focus {
                 text-decoration: none;
-                color: #fff000;
+                color: @cor_decorate;
             }
         }
 
@@ -156,10 +158,10 @@
                 float: left;
                 padding: 0 2% 0 2%;
                 .fa {
-                    color: #fff000;
+                    color: @cor_decorate;
                     text-align:center;
                     font-size: 2.3em;
-                    margin-bottom: 5px; 
+                    margin-bottom: 5px;
                     margin-top: 10px;
                 }
                 p {
@@ -179,7 +181,7 @@
                     margin-top: 5px;
                 }
             }
-        }  
+        }
     }
 
 }
@@ -192,7 +194,7 @@
 .experience {
     .indexExperience {
         h4 {
-            color: #fff;
+            color: @cor_padrao;
             text-transform: uppercase;
             font-size: 1.4em;
             font-weight: 600;
@@ -206,7 +208,7 @@
             padding: 10px 0 20px 0;
             float: left;
             .careerItem_cargo {
-                color: #fff000;
+                color: @cor_decorate;
                 font-size: 1.8em;
                 font-weight: 300;
                 margin: 0;
@@ -226,19 +228,19 @@
                 }
             }
             .careerItem_empresa {
-                color: #fff;
+                color: @cor_padrao;
                 font-size: 1.4em;
                 font-weight: 600;
                 margin: 0;
             }
             .careerItem_data {
-                color: #fff;
+                color: @cor_padrao;
                 font-size: 1.1em;
                 font-weight: 300;
                 margin: 0;
             }
             .careerItem_desc {
-                color: #fff;
+                color: @cor_padrao;
                 font-size: 1.2em;
                 font-weight: 400;
                 margin: 0;
@@ -247,8 +249,8 @@
         }
         .indexExperience_career {
             padding-right: 3%;
-            border-right: 1px solid #fff;
-        } 
+            border-right: 1px solid @cor_padrao;
+        }
         .indexExperience_international {
             padding-left: 3%;
         }
@@ -262,16 +264,16 @@
 .skills {
     .indexSkills {
         h4 {
-            color: #fff;
+            color: @cor_padrao;
             text-transform: uppercase;
             font-size: 1.4em;
             font-weight: 600;
         }
         .indexSkills_chart {
             padding-top: 20px;
-            .chartMain { 
+            .chartMain {
                 display:block;
-                border: 1px solid #fff;
+                border: 1px solid @cor_padrao;
                 border-radius: 10px;
                 height: 22px;
                 .chartMain_sub {
@@ -282,7 +284,7 @@
                     background-repeat: no-repeat;
                     background-position: center center;
                     background-attachment: fixed;
-                    background-size: auto auto, cover;    
+                    background-size: auto auto, cover;
                     margin: 0;
                     padding: 4px 0 0 0;
                     height: 20px;
@@ -294,12 +296,12 @@
                     }
                 }
                 .chartMain-01 {
-                    border-radius: 10px 0 0 10px; 
+                    border-radius: 10px 0 0 10px;
                     width: 42%;
                     background: #B24592; /* fallback for old browsers */
                     background-image: linear-gradient(135deg, #B24592 36%, #F15F79 100%);
                 }
-                .chartMain-02 {                    
+                .chartMain-02 {
                     width: 42%;
                     background: #6a3093; /* fallback for old browsers */
                     background-image: linear-gradient(135deg, #6a3093 36%, #a044ff 100%);
@@ -311,7 +313,7 @@
                     background-image: linear-gradient(135deg, #1e3c72 36%, #2a5298 100%);
                 }
             }
-        } 
+        }
         .indexSkills_list {
             padding-top: 20px;
             ul  {
@@ -321,7 +323,7 @@
                     margin: 0 0 10px 0;
                     .skill {
                         display: block;
-                        border: 1px solid #fff;
+                        border: 1px solid @cor_padrao;
                         border-radius: 20px;
                         height: 18px;
                         .skill_box {
@@ -490,29 +492,29 @@
 
 
                     }
-                } 
-            } 
-        } 
+                }
+            }
+        }
         .listR {
 
-        } 
+        }
         .listM {
 
-        } 
+        }
         .listL {
 
         }
         .listR1 {
 
-        } 
+        }
         .listM1 {
 
-        } 
+        }
         .listL1 {
 
         }
-    } 
-} 
+    }
+}
 
 
 .projects {
@@ -527,11 +529,11 @@
                     display: block;
                     width: 100%;
                 }
-                .indexProjects_mosaic_item_link:hover, 
+                .indexProjects_mosaic_item_link:hover,
                     .indexProjects_mosaic_item_link:focus {
                     background-color: #cccfff;
                 }
-            } 
+            }
         }
     }
 }
@@ -545,38 +547,38 @@
             form {
                 .form-group {
                     label {
-                        color: #fff;
+                        color: @cor_padrao;
                         font-weight: 600;
                         font-size: 1.2em;
                     }
                     input, textarea {
-                        border: 1px solid #fff000;    
+                        border: 1px solid @cor_decorate;
                         border-radius: 3px;
                         background-color: initial;
                         width: 100%;
                         display: block;
                         font-size: 1.2em;
                         font-weight: 400;
-                        color: #fff;
+                        color: @cor_padrao;
                         padding: 4px 10px 4px 10px;
                     }
                     button {
-                        border: 1px solid #fff000;  
+                        border: 1px solid @cor_decorate;
                         float: right;
                         background-color: initial;
-                        color: #fff;
+                        color: @cor_padrao;
                         font-size: 1.2em;
                         font-weight: 600;
                         padding: 7px 20px 7px 20px;
                     }
                 }
-            }  
+            }
         }
         */
         .indexContact_info {
             padding: 25px 0 25px 0;
             .contactItem {
-                color: #fff;
+                color: @cor_padrao;
                 display: block;
                 text-align: center;
                 width: 100%;
@@ -584,17 +586,17 @@
                 font-weight: 600;
                 padding: 0 0 15px 0;
                 .fa {
-                    color: #fff000;
+                    color: @cor_decorate;
                     margin: 0 3px 0 0;
                     font-size: 1.2em;
                 }
             }
             .contactItem:hover, .contactItem:focus {
-                color:#fff000;
+                color:@cor_decorate;
                 text-decoration: none;
             }
-        }   
-    } 
+        }
+    }
 }
 
 
@@ -621,7 +623,7 @@
             right: 0;
             cursor: pointer;
             .fa {
-                color: #fff;
+                color: @cor_padrao;
                 display: block;
                 font-size: 1.4em;
                 padding-top: 10px;
@@ -655,7 +657,7 @@
                     width: 100%;
                     a {
                         font-size: 1em;
-                        color: #fff;
+                        color: @cor_padrao;
                         font-weight: 300;
                         text-transform: uppercase;
                         letter-spacing: 0.15em;
@@ -663,7 +665,7 @@
                         display: block;
                     }
                     a:hover, a:focus {
-                        color: #fff000;
+                        color: @cor_decorate;
                         text-decoration: none;
                     }
                 }
@@ -687,7 +689,7 @@
     .single_top {
         padding-bottom: 20px;
         margin-bottom: 25px;
-        border-bottom: 1px solid #fff000;
+        border-bottom: 1px solid @cor_decorate;
         .single_top_header {
             .single_top_header_link {
                 text-decoration:none;
@@ -698,26 +700,26 @@
                     text-transform: uppercase;
                     line-height: 1em;
                     margin: 15px 0 0 0;
-                    color: #fff;
+                    color: @cor_padrao;
                     float: left;
-                } 
+                }
                 .titulo {
                     font-size: 1.2em;
                     font-weight: 300;
                     letter-spacing: 0.407em;
                     margin: 0;
-                    color: #fff000;
+                    color: @cor_decorate;
                     float: left;
                     clear:both;
                 }
             }
-            .single_top_header_link:hover, 
+            .single_top_header_link:hover,
                 .single_top_header_link:focus {
                 .nome, .titulo {
                     color: #B24592;
                     color: linear-gradient(135deg, #b24592 36%, #f15f79 100%);
 
-                } 
+                }
             }
         }
         .single_nav {
@@ -727,7 +729,7 @@
     .single_content {
         .single_content_article {
             .single_content_article_title {
-                color: #fff;
+                color: @cor_padrao;
                 font-weight: 300;
                 font-size: 4em;
                 font-style: italic;
@@ -735,13 +737,13 @@
 
             }
             .single_content_article_text {
-                color: #fff;
+                color: @cor_padrao;
                 font-weight: 400;
                 font-size: 1.4em;
             }
         }
         .single_content_aside {
-            color: #fff;
+            color: @cor_padrao;
             padding-top: 25px;
             padding-bottom: 25px;
             margin-top: 20px;
@@ -753,7 +755,7 @@
                 margin-bottom: 20px;
                 width: 100%;
                 .fa {
-                    color: #fff;
+                    color: @cor_padrao;
                 }
             }
         }
@@ -777,7 +779,7 @@
 //
 .bmenu {
     .lrs_a {
-        color: #fff;
+        color: @cor_padrao;
         font-weight: 400;
         font-size: 1.4em;
         text-align: center;
@@ -787,6 +789,6 @@
         text-decoration: none;
     }
     .lrs_a:hover, .lrs_a:focus  {
-        color: #fff000;
+        color: @cor_decorate;
     }
 }
