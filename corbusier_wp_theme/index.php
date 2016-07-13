@@ -15,7 +15,7 @@
             <nav class="col-md-6 indexHeader_nav">
                 <ul>
                     <li class="first">
-                        <a href="#about">Informacoes</a>
+                        <a href="#about">Informações</a>
                     </li>
                     <li>
                         <a href="#experience">Formação e Experiência</a>
@@ -42,15 +42,14 @@
                 <main class="col-md-6 indexAbout_info">
                     <h4 class="all-center">Quem sou</h4>
                     <p>
-                        My work is make the people's life better, solving their problems with my skills and experience.
-                        I believe a good solution to a problem includes design, business and management aspects.
-                        Without these three aspects any solution will be incomplete (in fact probably it will fail).
+                        Capixaba, 23 anos, cursando o 9° período de Arquitetura e Urbanismo na FAESA no período matutino.
+                        Sou bem disposta, fácil de se relacionar, dedicada e esforçada. Procuro colaborar, aprender e aprimorar minhas habilidades.
+                        Pretendo trabalhar e contribuir com pessoas que compartilhem da mesma paixão que eu pela Arquitetura, que me ajudem a crescer pessoalmente e profissionalmente.
                     </p>
                     <p>
                         Redes Sociais:
-                        <a href="#" target="_blank" class="fa fa-linkedin-square"></a>
-                        <a href="#" target="_blank" class="fa fa-flickr"></a>
-                        <a href="#" target="_blank" class="fa fa-facebook-square"></a>
+                        <a href="https://br.linkedin.com/in/camila-lima-machado-350373104/en" target="_blank" class="fa fa-linkedin-square"></a>
+                        <a href="https://www.flickr.com/photos/mila_ca/" target="_blank" class="fa fa-flickr"></a>
                     </p>
                 </main>
                 <aside class="col-md-6 indexAbout_info">
@@ -192,7 +191,14 @@
                         <li>
                             <div class="skill">
                                 <span class="skill_box cor1 c_skill_8">
-                                    <p>AutoCAD 2D e 3D</p>
+                                    <p>AutoCAD 2D</p>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill">
+                                <span class="skill_box cor1 c_skill_8_B">
+                                    <p>AutoCAD 3D</p>
                                 </span>
                             </div>
                         </li>
@@ -206,7 +212,7 @@
                         <li>
                             <div class="skill">
                                 <span class="skill_box cor1 c_skill_10">
-                                    <p>XXXX</p>
+                                    <p>V-Ray</p>
                                 </span>
                             </div>
                         </li>
@@ -246,6 +252,20 @@
                         <li>
                             <div class="skill">
                                 <span class="skill_box cor3 c_skill_15">
+                                    <p>Organização e Planejamento</p>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill">
+                                <span class="skill_box cor3 c_skill_16">
+                                    <p>Iniciativa</p>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill">
+                                <span class="skill_box cor3 c_skill_17">
                                     <p>Vontade de Aprender</p>
                                 </span>
                             </div>
@@ -313,26 +333,29 @@
                     <div class="col-md-3 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
                             <p>
-                                1º pavimento possui:
-                                - Ampla sala de jantar e estar com vista para a piscina;
-                                - Lavabo;
-                                - Cozinha;
-                                - Área de serviço;
-                                - Ambiente para depósito;
-                                - Acesso garagem.
+                                <ul>
+                                    <li>1º pavimento possui:</li>
+                                    <li>Ampla sala de jantar e estar com vista para a piscina;</li>
+                                    <li>Lavabo;</li>
+                                    <li>Cozinha;</li>
+                                    <li>Área de serviço;</li>
+                                    <li>Ambiente para depósito;</li>
+                                    <li>Acesso garagem.</li>
+                                </ul>
                             </p>
                         </span>
                     </div>
                     <div class="col-md-3 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
                             <p>
-                                2º pavimento possui:
-                                - 3 quartos, sendo 2 suítes;
-                                - Banheiro;
-                                - Sala de TV;
-                                - Biblioteca;
-                                - Jardim ( com escada marinheiro para acesso ao telhado verde e caixa d'água).
-                                
+                                <ul>
+                                    <li>2º pavimento possui:</li>
+                                    <li>3 quartos, sendo 2 suítes;</li>
+                                    <li>Banheiro;</li>
+                                    <li>Sala de TV;</li>
+                                    <li>Biblioteca;</li>
+                                    <li>Jardim (com escada marinheiro para acesso ao telhado verde e caixa d'água).</li>
+                                </ul>
                             </p>
                         </span>
                     </div>

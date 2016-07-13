@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; <?php bloginfo('charset'); ?>" />
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <title><?php bloginfo('name'); ?></title> 
+        <title>Camila Lima Machado</title> 
 
 
 
@@ -54,7 +54,7 @@
 
 
         <script>
-            // Smooth Scroll    
+            // Smooth Scroll
             $(function () {
                 $('a[href*="#"]:not([href="#"])').click(function () {
                     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
