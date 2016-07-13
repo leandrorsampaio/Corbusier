@@ -455,6 +455,17 @@
 
 .projects {
     .indexProjects {
+        .projetoSeparator {
+            width: 100%;
+            float: left;
+            height: 35px;
+        }
+        .projetoSeparator-line {
+            width: 100%;
+            float: left;
+            height: 1px;
+            background-color: @cor_padrao;
+        }
         .indexProjects_mosaic {
             .indexProjects_mosaic_item {
                 padding-bottom: 25px;
@@ -467,6 +478,21 @@
                         font-weight: 300;
                         color: @cor_padrao;
                         text-align: justify;
+                    }
+                    ul, li {
+                        font-size: 14px;
+                        list-style: initial;
+                        font-weight: 300;
+                        list-style-position: inside;
+                    }
+                    h4 {
+                        color: @cor_decorate;
+                        font-size: 3em;
+                        font-weight: 600;
+                    }
+                    h5 {
+                        font-size: 2em;
+                        font-weight: 400;
                     }
                 }
                 .indexProjects_mosaic_item_link:hover,

@@ -75,7 +75,7 @@
                     <span class="careerItem">
                         <p class="careerItem_data">Ensino Superior</p>
                         <p class="careerItem_cargo">Arquitetura e Urbanismo na FAESA</p>
-                        <p class="careerItem_empresa">Cursando o 8o período noturno, com previsão de graduação em 2017.</p>
+                        <p class="careerItem_empresa">Cursando o 9° período noturno, com previsão de graduação em 2017.</p>
                     </span>
                     <span class="careerItem">
                         <p class="careerItem_data">Ensino M&eacute;dio</p>
@@ -101,7 +101,7 @@
                             <p class="careerItem_data">Curso de idiomas</p>
                             <p class="careerItem_cargo">Inglês na British and American</p>
                             <p class="careerItem_empresa">
-                                Nível básico. Conclusão em janeiro de 2017.
+                                Conclusão em janeiro de 2017.
                             </p>
                         </span>
                         <span class="careerItem">
@@ -282,8 +282,26 @@
                 <header class="col-md-12 sectionTitle">
                     <h3>Projetos</h3>
                 </header>
-
-
+                <span class="projetoSeparator"></span>
+                <div class="row indexProjects_mosaic">
+                    <div class="col-md-2 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <h4>Casa Unifamiliar</h4>
+                            <h5><span>Localização:</span> Bairro Jardim da Penha</h5>
+                            <h5><span>Área total:</span> 300m²</h5>
+                        </span>
+                    </div>
+                    <div class="col-md-5 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_02.jpg" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-md-5 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_03.jpg" alt="" />
+                        </span>
+                    </div>
+                </div>
                 <div class="row indexProjects_mosaic">
                     <div class="col-md-6 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
@@ -292,14 +310,14 @@
                     </div>
                     <div class="col-md-6 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
-                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_02.jpg" alt="" />
+                            <p>Proposta: Projeto desenvolvido na disciplina de Projeto de Arquitetura I.</p>
+                            <p>Inspirado na obra de Le Corbusier, Villa Savoye e pontos do Modernismo.</p>
+                            <p>Dois cubos conectados por um retângulo, proporcionando leveza e fácil leitura do estilo arquitetônico proposto.</p>
+                            <p>A edificação é duplex e contem 3 quartos, dispostos sob orientação solar e de ventilação compatíveis para melhor conforto término e de iluminação. Possui corredores trabalhados em esquadrias com vidros, propiciando ao moradores ou visitantes, vista para o exterior com troca de ventilação.</p>
                         </span>
                     </div>
-                    <div class="col-md-4 indexProjects_mosaic_item">
-                        <span class="indexProjects_mosaic_item_link">
-                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_03.jpg" alt="" />
-                        </span>
-                    </div>
+                </div>
+                <div class="row indexProjects_mosaic">
                     <div class="col-md-4 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
                             <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_04.jpg" alt="" />
@@ -307,42 +325,27 @@
                     </div>
                     <div class="col-md-4 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
+                            <ul>
+                                <li>1º pavimento possui:</li>
+                                <li>Ampla sala de jantar e estar com vista para a piscina;</li>
+                                <li>Lavabo;</li>
+                                <li>Cozinha;</li>
+                                <li>Área de serviço;</li>
+                                <li>Ambiente para depósito;</li>
+                                <li>Acesso garagem.</li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="col-md-4 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
                             <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_05.jpg" alt="" />
                         </span>
                     </div>
+                </div>
+                <div class="row indexProjects_mosaic">
                     <div class="col-md-3 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
-                            <p>
-                                Casa Unifamiliar
-                                Localização: Bairro Jardim da Penha
-                                Área total: 300m²
-                            </p>
-                        </span>
-                    </div>
-                    <div class="col-md-3 indexProjects_mosaic_item">
-                        <span class="indexProjects_mosaic_item_link">
-                            <p>
-                                Proposta: Projeto desenvolvido na disciplina de Projeto de Arquitetura I.
-                                Inspirado na obra de Le Corbusier, Villa Savoye e pontos do Modernismo.
-                                Dois cubos conectados por um retângulo, proporcionando leveza e fácil leitura do estilo arquitetônico proposto.
-                                A edificação é duplex e contem 3 quartos, dispostos sob orientação solar e de ventilação compatíveis para melhor conforto término e de iluminação. Possui corredores trabalhados em esquadrias com vidros, propiciando ao moradores ou visitantes, vista para o exterior com troca de ventilação.
-
-                            </p>
-                        </span>
-                    </div>
-                    <div class="col-md-3 indexProjects_mosaic_item">
-                        <span class="indexProjects_mosaic_item_link">
-                            <p>
-                                <ul>
-                                    <li>1º pavimento possui:</li>
-                                    <li>Ampla sala de jantar e estar com vista para a piscina;</li>
-                                    <li>Lavabo;</li>
-                                    <li>Cozinha;</li>
-                                    <li>Área de serviço;</li>
-                                    <li>Ambiente para depósito;</li>
-                                    <li>Acesso garagem.</li>
-                                </ul>
-                            </p>
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_06.jpg" alt="" />
                         </span>
                     </div>
                     <div class="col-md-3 indexProjects_mosaic_item">
@@ -359,7 +362,144 @@
                             </p>
                         </span>
                     </div>
+                    <div class="col-md-3 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_07.jpg" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-md-3 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_08.jpg" alt="" />
+                        </span>
+                    </div>
                 </div>
+
+
+
+
+                <span class="projetoSeparator"></span>
+                <span class="projetoSeparator-line"></span>
+                <span class="projetoSeparator"></span>
+                <div class="row indexProjects_mosaic">
+                    <div class="col-md-2 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <h4>Habitação Popular de Interesse Social</h4>
+                            <h5><span>Localização:</span> Bairro Jardim Camburi</h5>
+                            <h5><span>Área total:</span> 12.395,29m²</h5>
+                        </span>
+                    </div>
+                    <div class="col-md-5 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_8.jpg" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-md-5 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_9.jpg" alt="" />
+                        </span>
+                    </div>
+                </div>
+                <div class="row indexProjects_mosaic">
+                    <div class="col-md-4 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <p>Condomínio de habitação social sem a existência de muros, para maior e melhor integração ao entorno, com o intuito de transmitir aos habitantes conforto, bem-estar e independência, quebrando os paradigmas de que um condomínio para ser seguro tem que ser fechado.</p>
+                            <p>Dispõe de edificações de 2 e 3 quartos com vaga de garagem, geminadas e duplex de alvenaria estrutural. Possui também edificação acessível.</p>
+                            <p>Contem quadra poliesportiva, centro de convenções, espaço para ações comunitárias, horta e espaço para atividades físicas.</p>
+                        </span>
+                    </div>
+                    <div class="col-md-4 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_1.jpg" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-md-4 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_2.jpg" alt="" />
+                        </span>
+                    </div>
+                </div>
+                <div class="row indexProjects_mosaic">
+                    <div class="col-md-6 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_3.jpg" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-md-6 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_4.jpg" alt="" />
+                        </span>
+                    </div>
+                </div>
+                <div class="row indexProjects_mosaic">
+                    <div class="col-md-4 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_5.jpg" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-md-4 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_6.jpg" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-md-4 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_2.jpg" alt="" />
+                        </span>
+                    </div>
+                </div>
+                <div class="row indexProjects_mosaic">
+                    <div class="col-md-6 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_7.jpg" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-md-6 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_2_1.jpg" alt="" />
+                        </span>
+                    </div>
+                </div>
+
+
+
+                <span class="projetoSeparator"></span>
+                <span class="projetoSeparator-line"></span>
+                <span class="projetoSeparator"></span>
+                <div class="row indexProjects_mosaic">
+                    <div class="col-md-2 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <h4>Edifício Vertical Comercial</h4>
+                            <h5><span>Localização:</span> Enseada do Suá</h5>
+                            <h5><span>Área total:</span> 3.724,90m²</h5>
+                        </span>
+                    </div>
+                    <div class="col-md-3 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <p>Edifício Vertical Comercial, com fachadas ventiladas e "espaço verde", com o objetivo de dinamizar e obter bom conforto térmico e de iluminação nos ambientes comerciais. O Edifício possui lojas, praça de alimentação, salas comerciais e de atendimento médico, auditórios, dentre outros ambientes necessários para ambiente empresarial.</p>
+                        </span>
+                    </div>
+                    <div class="col-md-7 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_3_1.png" alt="" />
+                        </span>
+                    </div>
+                </div>
+                <div class="row indexProjects_mosaic">
+                    <div class="col-md-6 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_3_3.jpg" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-md-6 indexProjects_mosaic_item">
+                        <span class="indexProjects_mosaic_item_link">
+                            <img src="<?php bloginfo('template_url'); ?>/images/projeto_3_2.png" alt="" />
+                        </span>
+                    </div>
+                </div>
+
+
+
+
 
             </div>
         </section>

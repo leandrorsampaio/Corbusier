@@ -14,19 +14,19 @@ if (is_home()) {
         <div class="menuBall_icon_nav">
             <ul>
                 <li class="first">
-                    <a class="menuBall_icon_nav-link" href="#about">About me</a>
+                    <a class="menuBall_icon_nav-link" href="#about">Informações</a>
                 </li>
                 <li>
-                    <a class="menuBall_icon_nav-link" href="#experience">Experience</a>
-                </li>                    
-                <li>
-                    <a class="menuBall_icon_nav-link" href="#skills">Skills</a>
+                    <a class="menuBall_icon_nav-link" href="#experience">Formação e Experiência</a>
                 </li>
                 <li>
-                    <a class="menuBall_icon_nav-link" href="#projects">Projects</a>
+                    <a class="menuBall_icon_nav-link" href="#skills">Habilidades</a>
+                </li>
+                <li>
+                    <a class="menuBall_icon_nav-link" href="#projects">Projetos</a>
                 </li>
                 <li class="last">
-                    <a class="menuBall_icon_nav-link" href="#contact">Contact</a>
+                    <a class="menuBall_icon_nav-link" href="#contact">Contato</a>
                 </li>
             </ul>
         </div>
