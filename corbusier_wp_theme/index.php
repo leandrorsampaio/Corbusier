@@ -245,7 +245,7 @@
                         <li>
                             <div class="skill">
                                 <span class="skill_box cor3 c_skill_14">
-                                    <p>Portugês (Norma Culta)</p>
+                                    <p>Português (Norma Culta)</p>
                                 </span>
                             </div>
                         </li>
@@ -303,12 +303,12 @@
                     </div>
                 </div>
                 <div class="row indexProjects_mosaic">
-                    <div class="col-md-6 indexProjects_mosaic_item">
+                    <div class="col-md-9 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
                             <img src="<?php bloginfo('template_url'); ?>/images/projeto_1_01.jpg" alt="" />
                         </span>
                     </div>
-                    <div class="col-md-6 indexProjects_mosaic_item">
+                    <div class="col-md-3 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
                             <p>Proposta: Projeto desenvolvido na disciplina de Projeto de Arquitetura I.</p>
                             <p>Inspirado na obra de Le Corbusier, Villa Savoye e pontos do Modernismo.</p>
@@ -488,6 +488,7 @@
                     <div class="col-md-6 indexProjects_mosaic_item">
                         <span class="indexProjects_mosaic_item_link">
                             <img src="<?php bloginfo('template_url'); ?>/images/projeto_3_3.jpg" alt="" />
+                            <span class="legenda">Estudo Volumétrico</span>
                         </span>
                     </div>
                     <div class="col-md-6 indexProjects_mosaic_item">
