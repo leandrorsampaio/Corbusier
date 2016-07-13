@@ -75,7 +75,7 @@
                     <span class="careerItem">
                         <p class="careerItem_data">Ensino Superior</p>
                         <p class="careerItem_cargo">Arquitetura e Urbanismo na FAESA</p>
-                        <p class="careerItem_empresa">Cursando o 9° período noturno, com previsão de graduação em 2017.</p>
+                        <p class="careerItem_empresa">Cursando o 9° período matutino, com previsão de graduação em 2017.</p>
                     </span>
                     <span class="careerItem">
                         <p class="careerItem_data">Ensino M&eacute;dio</p>
